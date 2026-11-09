@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Compile Update="Form1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormLogin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormMantenimientoPersonas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormPrincipal.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FrmAsistencia.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FrmConstanciaMatricula.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FrmConsultas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FrmHorarios.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FrmMantenimientoAcademico.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FrmMatricula.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FrmNotas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FrmPagos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FrmReportes.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+</Project>

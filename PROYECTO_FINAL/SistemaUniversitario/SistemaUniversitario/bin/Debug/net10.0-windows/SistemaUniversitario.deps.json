@@ -1,0 +1,107 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "SistemaUniversitario/1.0.0": {
+        "dependencies": {
+          "Guna.UI2.WinForms": "2.0.5.1",
+          "ReaLTaiizor": "3.8.2.1",
+          "System.Data.OleDb": "10.0.14"
+        },
+        "runtime": {
+          "SistemaUniversitario.dll": {}
+        }
+      },
+      "Guna.UI2.WinForms/2.0.5.1": {
+        "dependencies": {
+          "System.Management": "10.0.14"
+        },
+        "runtime": {
+          "lib/net10.0-windows7.0/Guna.UI2.dll": {
+            "assemblyVersion": "2.0.5.1",
+            "fileVersion": "2.0.5.1"
+          }
+        }
+      },
+      "ReaLTaiizor/3.8.2.1": {
+        "runtime": {
+          "lib/net10.0-windows7.0/ReaLTaiizor.dll": {
+            "assemblyVersion": "3.8.2.1",
+            "fileVersion": "3.8.2.1"
+          }
+        }
+      },
+      "System.Data.OleDb/10.0.14": {
+        "runtime": {
+          "lib/net10.0/System.Data.OleDb.dll": {
+            "assemblyVersion": "10.0.0.14",
+            "fileVersion": "10.0.1426.52326"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/net10.0/System.Data.OleDb.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "10.0.0.14",
+            "fileVersion": "10.0.1426.52326"
+          }
+        }
+      },
+      "System.Management/10.0.14": {
+        "runtime": {
+          "lib/net10.0/System.Management.dll": {
+            "assemblyVersion": "10.0.0.14",
+            "fileVersion": "10.0.1426.52326"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/net10.0/System.Management.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "10.0.0.14",
+            "fileVersion": "10.0.1426.52326"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "SistemaUniversitario/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Guna.UI2.WinForms/2.0.5.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-emUVoKfe0EpsJkLQ9sjXq60LQbekWtAroG+16sDO0Uo0wqtjxEG7Q52sJZDuT72g6pO8sB9qyy0XISPauRlH/Q==",
+      "path": "guna.ui2.winforms/2.0.5.1",
+      "hashPath": "guna.ui2.winforms.2.0.5.1.nupkg.sha512"
+    },
+    "ReaLTaiizor/3.8.2.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-RNrX7/YruPJfVIfWD0x9EIPmvPH5Mawf7lZbbFuQHhqp3Lo8oO+FNXvVT9JgDu+U/dgeM09ZOdo6SZQrQ16pdQ==",
+      "path": "realtaiizor/3.8.2.1",
+      "hashPath": "realtaiizor.3.8.2.1.nupkg.sha512"
+    },
+    "System.Data.OleDb/10.0.14": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-xYI6L1KwgZMk4Cfs9zoLevmye1/y8gx/ZZq8tZusP4+64zkYwqRx0lxu3HwopYx3N/IfKYdiCJAJAAhLfOJC2w==",
+      "path": "system.data.oledb/10.0.14",
+      "hashPath": "system.data.oledb.10.0.14.nupkg.sha512"
+    },
+    "System.Management/10.0.14": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ywAltakc72Oe7liNatclpyq8oiLYx0VMSjQvphlsbPbiQ9glrV3JKvn5M2xFbsOzzh8sV3QAiUdmu2AV/ffN7Q==",
+      "path": "system.management/10.0.14",
+      "hashPath": "system.management.10.0.14.nupkg.sha512"
+    }
+  }
+}

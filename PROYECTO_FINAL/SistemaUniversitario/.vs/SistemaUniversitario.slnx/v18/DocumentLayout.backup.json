@@ -1,0 +1,334 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO_FINAL\\PROYECTO_FINAL\\SistemaUniversitario\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B4187301-1332-81F9-7D7D-C34E8EE8194D}|SistemaUniversitario\\SistemaUniversitario.vbproj|c:\\users\\usuario\\onedrive\\desktop\\proyecto_final\\proyecto_final\\sistemauniversitario\\sistemauniversitario\\formprincipal.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{B4187301-1332-81F9-7D7D-C34E8EE8194D}|SistemaUniversitario\\SistemaUniversitario.vbproj|solutionrelative:sistemauniversitario\\formprincipal.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4187301-1332-81F9-7D7D-C34E8EE8194D}|SistemaUniversitario\\SistemaUniversitario.vbproj|c:\\users\\usuario\\onedrive\\desktop\\proyecto_final\\proyecto_final\\sistemauniversitario\\sistemauniversitario\\formprincipal.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{B4187301-1332-81F9-7D7D-C34E8EE8194D}|SistemaUniversitario\\SistemaUniversitario.vbproj|solutionrelative:sistemauniversitario\\formprincipal.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4187301-1332-81F9-7D7D-C34E8EE8194D}|SistemaUniversitario\\SistemaUniversitario.vbproj|c:\\users\\usuario\\onedrive\\desktop\\proyecto_final\\proyecto_final\\sistemauniversitario\\sistemauniversitario\\moduleconexion.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{B4187301-1332-81F9-7D7D-C34E8EE8194D}|SistemaUniversitario\\SistemaUniversitario.vbproj|solutionrelative:sistemauniversitario\\moduleconexion.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4187301-1332-81F9-7D7D-C34E8EE8194D}|SistemaUniversitario\\SistemaUniversitario.vbproj|c:\\users\\usuario\\onedrive\\desktop\\proyecto_final\\proyecto_final\\sistemauniversitario\\sistemauniversitario\\frmconsultas.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{B4187301-1332-81F9-7D7D-C34E8EE8194D}|SistemaUniversitario\\SistemaUniversitario.vbproj|solutionrelative:sistemauniversitario\\frmconsultas.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4187301-1332-81F9-7D7D-C34E8EE8194D}|SistemaUniversitario\\SistemaUniversitario.vbproj|c:\\users\\usuario\\onedrive\\desktop\\proyecto_final\\proyecto_final\\sistemauniversitario\\sistemauniversitario\\frmreportes.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{B4187301-1332-81F9-7D7D-C34E8EE8194D}|SistemaUniversitario\\SistemaUniversitario.vbproj|solutionrelative:sistemauniversitario\\frmreportes.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4187301-1332-81F9-7D7D-C34E8EE8194D}|SistemaUniversitario\\SistemaUniversitario.vbproj|c:\\users\\usuario\\onedrive\\desktop\\proyecto_final\\proyecto_final\\sistemauniversitario\\sistemauniversitario\\frmreportes.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{B4187301-1332-81F9-7D7D-C34E8EE8194D}|SistemaUniversitario\\SistemaUniversitario.vbproj|solutionrelative:sistemauniversitario\\frmreportes.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4187301-1332-81F9-7D7D-C34E8EE8194D}|SistemaUniversitario\\SistemaUniversitario.vbproj|c:\\users\\usuario\\onedrive\\desktop\\proyecto_final\\proyecto_final\\sistemauniversitario\\sistemauniversitario\\frmnotas.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{B4187301-1332-81F9-7D7D-C34E8EE8194D}|SistemaUniversitario\\SistemaUniversitario.vbproj|solutionrelative:sistemauniversitario\\frmnotas.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4187301-1332-81F9-7D7D-C34E8EE8194D}|SistemaUniversitario\\SistemaUniversitario.vbproj|c:\\users\\usuario\\onedrive\\desktop\\proyecto_final\\proyecto_final\\sistemauniversitario\\sistemauniversitario\\formmantenimientopersonas.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{B4187301-1332-81F9-7D7D-C34E8EE8194D}|SistemaUniversitario\\SistemaUniversitario.vbproj|solutionrelative:sistemauniversitario\\formmantenimientopersonas.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4187301-1332-81F9-7D7D-C34E8EE8194D}|SistemaUniversitario\\SistemaUniversitario.vbproj|c:\\users\\usuario\\onedrive\\desktop\\proyecto_final\\proyecto_final\\sistemauniversitario\\sistemauniversitario\\frmmantenimientoacademico.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{B4187301-1332-81F9-7D7D-C34E8EE8194D}|SistemaUniversitario\\SistemaUniversitario.vbproj|solutionrelative:sistemauniversitario\\frmmantenimientoacademico.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4187301-1332-81F9-7D7D-C34E8EE8194D}|SistemaUniversitario\\SistemaUniversitario.vbproj|c:\\users\\usuario\\onedrive\\desktop\\proyecto_final\\proyecto_final\\sistemauniversitario\\sistemauniversitario\\frmasistencia.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{B4187301-1332-81F9-7D7D-C34E8EE8194D}|SistemaUniversitario\\SistemaUniversitario.vbproj|solutionrelative:sistemauniversitario\\frmasistencia.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4187301-1332-81F9-7D7D-C34E8EE8194D}|SistemaUniversitario\\SistemaUniversitario.vbproj|c:\\users\\usuario\\onedrive\\desktop\\proyecto_final\\proyecto_final\\sistemauniversitario\\sistemauniversitario\\frmconstanciamatricula.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{B4187301-1332-81F9-7D7D-C34E8EE8194D}|SistemaUniversitario\\SistemaUniversitario.vbproj|solutionrelative:sistemauniversitario\\frmconstanciamatricula.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4187301-1332-81F9-7D7D-C34E8EE8194D}|SistemaUniversitario\\SistemaUniversitario.vbproj|c:\\users\\usuario\\onedrive\\desktop\\proyecto_final\\proyecto_final\\sistemauniversitario\\sistemauniversitario\\frmpagos.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{B4187301-1332-81F9-7D7D-C34E8EE8194D}|SistemaUniversitario\\SistemaUniversitario.vbproj|solutionrelative:sistemauniversitario\\frmpagos.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4187301-1332-81F9-7D7D-C34E8EE8194D}|SistemaUniversitario\\SistemaUniversitario.vbproj|c:\\users\\usuario\\onedrive\\desktop\\proyecto_final\\proyecto_final\\sistemauniversitario\\sistemauniversitario\\frmhorarios.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{B4187301-1332-81F9-7D7D-C34E8EE8194D}|SistemaUniversitario\\SistemaUniversitario.vbproj|solutionrelative:sistemauniversitario\\frmhorarios.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4187301-1332-81F9-7D7D-C34E8EE8194D}|SistemaUniversitario\\SistemaUniversitario.vbproj|c:\\users\\usuario\\onedrive\\desktop\\proyecto_final\\proyecto_final\\sistemauniversitario\\sistemauniversitario\\formlogin.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{B4187301-1332-81F9-7D7D-C34E8EE8194D}|SistemaUniversitario\\SistemaUniversitario.vbproj|solutionrelative:sistemauniversitario\\formlogin.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4187301-1332-81F9-7D7D-C34E8EE8194D}|SistemaUniversitario\\SistemaUniversitario.vbproj|c:\\users\\usuario\\onedrive\\desktop\\proyecto_final\\proyecto_final\\sistemauniversitario\\sistemauniversitario\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{B4187301-1332-81F9-7D7D-C34E8EE8194D}|SistemaUniversitario\\SistemaUniversitario.vbproj|solutionrelative:sistemauniversitario\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4187301-1332-81F9-7D7D-C34E8EE8194D}|SistemaUniversitario\\SistemaUniversitario.vbproj|c:\\users\\usuario\\onedrive\\desktop\\proyecto_final\\proyecto_final\\sistemauniversitario\\sistemauniversitario\\modulesesion.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{B4187301-1332-81F9-7D7D-C34E8EE8194D}|SistemaUniversitario\\SistemaUniversitario.vbproj|solutionrelative:sistemauniversitario\\modulesesion.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4187301-1332-81F9-7D7D-C34E8EE8194D}|SistemaUniversitario\\SistemaUniversitario.vbproj|c:\\users\\usuario\\onedrive\\desktop\\proyecto_final\\proyecto_final\\sistemauniversitario\\sistemauniversitario\\formlogin.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{B4187301-1332-81F9-7D7D-C34E8EE8194D}|SistemaUniversitario\\SistemaUniversitario.vbproj|solutionrelative:sistemauniversitario\\formlogin.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4187301-1332-81F9-7D7D-C34E8EE8194D}|SistemaUniversitario\\SistemaUniversitario.vbproj|c:\\users\\usuario\\onedrive\\desktop\\proyecto_final\\proyecto_final\\sistemauniversitario\\sistemauniversitario\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{B4187301-1332-81F9-7D7D-C34E8EE8194D}|SistemaUniversitario\\SistemaUniversitario.vbproj|solutionrelative:sistemauniversitario\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 22,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FrmReportes.vb",
+              "DocumentMoniker": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO_FINAL\\PROYECTO_FINAL\\SistemaUniversitario\\SistemaUniversitario\\FrmReportes.vb",
+              "RelativeDocumentMoniker": "SistemaUniversitario\\FrmReportes.vb",
+              "ToolTip": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO_FINAL\\PROYECTO_FINAL\\SistemaUniversitario\\SistemaUniversitario\\FrmReportes.vb",
+              "RelativeToolTip": "SistemaUniversitario\\FrmReportes.vb",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-11-08T19:15:25.757Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "FrmReportes.vb [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO_FINAL\\PROYECTO_FINAL\\SistemaUniversitario\\SistemaUniversitario\\FrmReportes.vb",
+              "RelativeDocumentMoniker": "SistemaUniversitario\\FrmReportes.vb",
+              "ToolTip": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO_FINAL\\PROYECTO_FINAL\\SistemaUniversitario\\SistemaUniversitario\\FrmReportes.vb [Dise\u00F1o]",
+              "RelativeToolTip": "SistemaUniversitario\\FrmReportes.vb [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-11-08T19:14:49.807Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FrmConsultas.vb [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO_FINAL\\PROYECTO_FINAL\\SistemaUniversitario\\SistemaUniversitario\\FrmConsultas.vb",
+              "RelativeDocumentMoniker": "SistemaUniversitario\\FrmConsultas.vb",
+              "ToolTip": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO_FINAL\\PROYECTO_FINAL\\SistemaUniversitario\\SistemaUniversitario\\FrmConsultas.vb [Dise\u00F1o]",
+              "RelativeToolTip": "SistemaUniversitario\\FrmConsultas.vb [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-11-08T19:04:42.871Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "FrmNotas.vb [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO_FINAL\\PROYECTO_FINAL\\SistemaUniversitario\\SistemaUniversitario\\FrmNotas.vb",
+              "RelativeDocumentMoniker": "SistemaUniversitario\\FrmNotas.vb",
+              "ToolTip": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO_FINAL\\PROYECTO_FINAL\\SistemaUniversitario\\SistemaUniversitario\\FrmNotas.vb [Dise\u00F1o]",
+              "RelativeToolTip": "SistemaUniversitario\\FrmNotas.vb [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-11-08T19:00:25.497Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "FrmAsistencia.vb [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO_FINAL\\PROYECTO_FINAL\\SistemaUniversitario\\SistemaUniversitario\\FrmAsistencia.vb",
+              "RelativeDocumentMoniker": "SistemaUniversitario\\FrmAsistencia.vb",
+              "ToolTip": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO_FINAL\\PROYECTO_FINAL\\SistemaUniversitario\\SistemaUniversitario\\FrmAsistencia.vb [Dise\u00F1o]",
+              "RelativeToolTip": "SistemaUniversitario\\FrmAsistencia.vb [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-11-08T18:59:22.153Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "FrmConstanciaMatricula.vb [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO_FINAL\\PROYECTO_FINAL\\SistemaUniversitario\\SistemaUniversitario\\FrmConstanciaMatricula.vb",
+              "RelativeDocumentMoniker": "SistemaUniversitario\\FrmConstanciaMatricula.vb",
+              "ToolTip": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO_FINAL\\PROYECTO_FINAL\\SistemaUniversitario\\SistemaUniversitario\\FrmConstanciaMatricula.vb [Dise\u00F1o]",
+              "RelativeToolTip": "SistemaUniversitario\\FrmConstanciaMatricula.vb [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-11-08T18:56:55.706Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "FrmPagos.vb [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO_FINAL\\PROYECTO_FINAL\\SistemaUniversitario\\SistemaUniversitario\\FrmPagos.vb",
+              "RelativeDocumentMoniker": "SistemaUniversitario\\FrmPagos.vb",
+              "ToolTip": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO_FINAL\\PROYECTO_FINAL\\SistemaUniversitario\\SistemaUniversitario\\FrmPagos.vb [Dise\u00F1o]",
+              "RelativeToolTip": "SistemaUniversitario\\FrmPagos.vb [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-11-08T18:56:23.945Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "FrmHorarios.vb [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO_FINAL\\PROYECTO_FINAL\\SistemaUniversitario\\SistemaUniversitario\\FrmHorarios.vb",
+              "RelativeDocumentMoniker": "SistemaUniversitario\\FrmHorarios.vb",
+              "ToolTip": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO_FINAL\\PROYECTO_FINAL\\SistemaUniversitario\\SistemaUniversitario\\FrmHorarios.vb [Dise\u00F1o]",
+              "RelativeToolTip": "SistemaUniversitario\\FrmHorarios.vb [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-11-08T18:55:08.625Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "FrmMantenimientoAcademico.vb [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO_FINAL\\PROYECTO_FINAL\\SistemaUniversitario\\SistemaUniversitario\\FrmMantenimientoAcademico.vb",
+              "RelativeDocumentMoniker": "SistemaUniversitario\\FrmMantenimientoAcademico.vb",
+              "ToolTip": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO_FINAL\\PROYECTO_FINAL\\SistemaUniversitario\\SistemaUniversitario\\FrmMantenimientoAcademico.vb [Dise\u00F1o]",
+              "RelativeToolTip": "SistemaUniversitario\\FrmMantenimientoAcademico.vb [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-11-08T18:50:20.894Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "FormMantenimientoPersonas.vb [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO_FINAL\\PROYECTO_FINAL\\SistemaUniversitario\\SistemaUniversitario\\FormMantenimientoPersonas.vb",
+              "RelativeDocumentMoniker": "SistemaUniversitario\\FormMantenimientoPersonas.vb",
+              "ToolTip": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO_FINAL\\PROYECTO_FINAL\\SistemaUniversitario\\SistemaUniversitario\\FormMantenimientoPersonas.vb [Dise\u00F1o]",
+              "RelativeToolTip": "SistemaUniversitario\\FormMantenimientoPersonas.vb [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-11-08T18:45:38.617Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FormPrincipal.vb",
+              "DocumentMoniker": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO_FINAL\\PROYECTO_FINAL\\SistemaUniversitario\\SistemaUniversitario\\FormPrincipal.vb",
+              "RelativeDocumentMoniker": "SistemaUniversitario\\FormPrincipal.vb",
+              "ToolTip": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO_FINAL\\PROYECTO_FINAL\\SistemaUniversitario\\SistemaUniversitario\\FormPrincipal.vb",
+              "RelativeToolTip": "SistemaUniversitario\\FormPrincipal.vb",
+              "ViewState": "AgIAADUAAAAAAAAAAAAWwEUAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-11-08T17:33:40.185Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ModuleSesion.vb",
+              "DocumentMoniker": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO_FINAL\\PROYECTO_FINAL\\SistemaUniversitario\\SistemaUniversitario\\ModuleSesion.vb",
+              "RelativeDocumentMoniker": "SistemaUniversitario\\ModuleSesion.vb",
+              "ToolTip": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO_FINAL\\PROYECTO_FINAL\\SistemaUniversitario\\SistemaUniversitario\\ModuleSesion.vb",
+              "RelativeToolTip": "SistemaUniversitario\\ModuleSesion.vb",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAkAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-11-08T00:07:33.807Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "FormLogin.vb",
+              "DocumentMoniker": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO_FINAL\\PROYECTO_FINAL\\SistemaUniversitario\\SistemaUniversitario\\FormLogin.vb",
+              "RelativeDocumentMoniker": "SistemaUniversitario\\FormLogin.vb",
+              "ToolTip": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO_FINAL\\PROYECTO_FINAL\\SistemaUniversitario\\SistemaUniversitario\\FormLogin.vb",
+              "RelativeToolTip": "SistemaUniversitario\\FormLogin.vb",
+              "ViewState": "AgIAAE0AAAAAAAAAAAAAAGsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-11-07T20:10:24.703Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ModuleConexion.vb",
+              "DocumentMoniker": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO_FINAL\\PROYECTO_FINAL\\SistemaUniversitario\\SistemaUniversitario\\ModuleConexion.vb",
+              "RelativeDocumentMoniker": "SistemaUniversitario\\ModuleConexion.vb",
+              "ToolTip": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO_FINAL\\PROYECTO_FINAL\\SistemaUniversitario\\SistemaUniversitario\\ModuleConexion.vb",
+              "RelativeToolTip": "SistemaUniversitario\\ModuleConexion.vb",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-11-07T20:08:27.027Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "FormLogin.vb [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO_FINAL\\PROYECTO_FINAL\\SistemaUniversitario\\SistemaUniversitario\\FormLogin.vb",
+              "RelativeDocumentMoniker": "SistemaUniversitario\\FormLogin.vb",
+              "ToolTip": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO_FINAL\\PROYECTO_FINAL\\SistemaUniversitario\\SistemaUniversitario\\FormLogin.vb [Dise\u00F1o]",
+              "RelativeToolTip": "SistemaUniversitario\\FormLogin.vb [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-11-07T18:49:30.173Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Form1.vb",
+              "DocumentMoniker": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO_FINAL\\PROYECTO_FINAL\\SistemaUniversitario\\SistemaUniversitario\\Form1.vb",
+              "RelativeDocumentMoniker": "SistemaUniversitario\\Form1.vb",
+              "ToolTip": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO_FINAL\\PROYECTO_FINAL\\SistemaUniversitario\\SistemaUniversitario\\Form1.vb",
+              "RelativeToolTip": "SistemaUniversitario\\Form1.vb",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-11-07T18:20:12.837Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Form1.vb [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO_FINAL\\PROYECTO_FINAL\\SistemaUniversitario\\SistemaUniversitario\\Form1.vb",
+              "RelativeDocumentMoniker": "SistemaUniversitario\\Form1.vb",
+              "ToolTip": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO_FINAL\\PROYECTO_FINAL\\SistemaUniversitario\\SistemaUniversitario\\Form1.vb [Dise\u00F1o]",
+              "RelativeToolTip": "SistemaUniversitario\\Form1.vb [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-11-06T15:30:55.911Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FormPrincipal.vb [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO_FINAL\\PROYECTO_FINAL\\SistemaUniversitario\\SistemaUniversitario\\FormPrincipal.vb",
+              "RelativeDocumentMoniker": "SistemaUniversitario\\FormPrincipal.vb",
+              "ToolTip": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO_FINAL\\PROYECTO_FINAL\\SistemaUniversitario\\SistemaUniversitario\\FormPrincipal.vb [Dise\u00F1o]",
+              "RelativeToolTip": "SistemaUniversitario\\FormPrincipal.vb [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-11-07T20:15:54.374Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

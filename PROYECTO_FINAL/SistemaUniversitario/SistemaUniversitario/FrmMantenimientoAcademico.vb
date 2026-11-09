@@ -1,0 +1,3 @@
+﻿Public Class FrmMantenimientoAcademico
+
+End Class
