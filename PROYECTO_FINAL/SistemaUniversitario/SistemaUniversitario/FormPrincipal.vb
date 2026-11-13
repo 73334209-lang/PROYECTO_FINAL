@@ -1,4 +1,27 @@
-﻿Public Class FormPrincipal
+﻿Imports System.Data.OleDb
+
+Public Class FormPrincipal
+
+    Private Sub CargarEstadisticasKPI()
+        Try
+            Using con As New OleDbConnection(CadenaConexion)
+                con.Open()
+
+                ' Ejemplo 1: Contar estudiantes activos (ajusta el nombre de tu tabla y label)
+                Using cmd As New OleDbCommand("SELECT COUNT(*) FROM Estudiantes", con)
+                    ' lblTotalEstudiantes.Text = cmd.ExecuteScalar().ToString()
+                End Using
+
+                ' Ejemplo 2: Contar matrículas
+                Using cmd As New OleDbCommand("SELECT COUNT(*) FROM Matriculas", con)
+                    ' lblTotalMatriculas.Text = cmd.ExecuteScalar().ToString()
+                End Using
+
+            End Using
+        Catch ex As Exception
+            MessageBox.Show("Error al cargar estadísticas: " & ex.Message, "Aviso", MessageBoxButtons.OK, MessageBoxIcon.Warning)
+        End Try
+    End Sub
     Private Sub Label4_Click(sender As Object, e As EventArgs) Handles Label4.Click
 
     End Sub
@@ -111,5 +134,7 @@
                 ConsultasToolStripMenuItem.Enabled = True
                 ReportesToolStripMenuItem.Enabled = False
         End Select
+        ' 3. Cargar los contadores de las tarjetas superiores desde Access
+        CargarEstadisticasKPI()
     End Sub
 End Class
