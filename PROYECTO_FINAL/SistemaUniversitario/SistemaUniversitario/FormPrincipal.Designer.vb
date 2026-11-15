@@ -23,8 +23,6 @@ Partial Class FormPrincipal
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(FormPrincipal))
-        Dim CustomizableEdges11 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges12 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges1 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges2 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges3 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
@@ -35,6 +33,8 @@ Partial Class FormPrincipal
         Dim CustomizableEdges8 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges9 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges10 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges11 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges12 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Panel1 = New Panel()
         PictureBox1 = New PictureBox()
         Label4 = New Label()
@@ -42,6 +42,11 @@ Partial Class FormPrincipal
         Label2 = New Label()
         Label1 = New Label()
         PanelContenido = New Panel()
+        Guna2Panel2 = New Guna.UI2.WinForms.Guna2Panel()
+        Guna2Panel3 = New Guna.UI2.WinForms.Guna2Panel()
+        Guna2Panel4 = New Guna.UI2.WinForms.Guna2Panel()
+        Guna2Panel5 = New Guna.UI2.WinForms.Guna2Panel()
+        Guna2Panel6 = New Guna.UI2.WinForms.Guna2Panel()
         Guna2Panel1 = New Guna.UI2.WinForms.Guna2Panel()
         Label5 = New Label()
         LblFechaActual = New Label()
@@ -86,11 +91,6 @@ Partial Class FormPrincipal
         AcercaDelSistemaToolStripMenuItem = New ToolStripMenuItem()
         VerificarConexiónToolStripMenuItem = New ToolStripMenuItem()
         CerrarSesiónToolStripMenuItem = New ToolStripMenuItem()
-        Guna2Panel2 = New Guna.UI2.WinForms.Guna2Panel()
-        Guna2Panel3 = New Guna.UI2.WinForms.Guna2Panel()
-        Guna2Panel4 = New Guna.UI2.WinForms.Guna2Panel()
-        Guna2Panel5 = New Guna.UI2.WinForms.Guna2Panel()
-        Guna2Panel6 = New Guna.UI2.WinForms.Guna2Panel()
         Panel1.SuspendLayout()
         CType(PictureBox1, ComponentModel.ISupportInitialize).BeginInit()
         PanelContenido.SuspendLayout()
@@ -179,6 +179,56 @@ Partial Class FormPrincipal
         PanelContenido.Name = "PanelContenido"
         PanelContenido.Size = New Size(1421, 369)
         PanelContenido.TabIndex = 2
+        ' 
+        ' Guna2Panel2
+        ' 
+        Guna2Panel2.BorderRadius = 20
+        Guna2Panel2.CustomizableEdges = CustomizableEdges1
+        Guna2Panel2.Location = New Point(249, 162)
+        Guna2Panel2.Name = "Guna2Panel2"
+        Guna2Panel2.ShadowDecoration.CustomizableEdges = CustomizableEdges2
+        Guna2Panel2.Size = New Size(192, 111)
+        Guna2Panel2.TabIndex = 5
+        ' 
+        ' Guna2Panel3
+        ' 
+        Guna2Panel3.BorderRadius = 20
+        Guna2Panel3.CustomizableEdges = CustomizableEdges3
+        Guna2Panel3.Location = New Point(484, 162)
+        Guna2Panel3.Name = "Guna2Panel3"
+        Guna2Panel3.ShadowDecoration.CustomizableEdges = CustomizableEdges4
+        Guna2Panel3.Size = New Size(192, 111)
+        Guna2Panel3.TabIndex = 5
+        ' 
+        ' Guna2Panel4
+        ' 
+        Guna2Panel4.BorderRadius = 20
+        Guna2Panel4.CustomizableEdges = CustomizableEdges5
+        Guna2Panel4.Location = New Point(719, 162)
+        Guna2Panel4.Name = "Guna2Panel4"
+        Guna2Panel4.ShadowDecoration.CustomizableEdges = CustomizableEdges6
+        Guna2Panel4.Size = New Size(192, 111)
+        Guna2Panel4.TabIndex = 5
+        ' 
+        ' Guna2Panel5
+        ' 
+        Guna2Panel5.BorderRadius = 20
+        Guna2Panel5.CustomizableEdges = CustomizableEdges7
+        Guna2Panel5.Location = New Point(961, 162)
+        Guna2Panel5.Name = "Guna2Panel5"
+        Guna2Panel5.ShadowDecoration.CustomizableEdges = CustomizableEdges8
+        Guna2Panel5.Size = New Size(192, 111)
+        Guna2Panel5.TabIndex = 5
+        ' 
+        ' Guna2Panel6
+        ' 
+        Guna2Panel6.BorderRadius = 20
+        Guna2Panel6.CustomizableEdges = CustomizableEdges9
+        Guna2Panel6.Location = New Point(1199, 162)
+        Guna2Panel6.Name = "Guna2Panel6"
+        Guna2Panel6.ShadowDecoration.CustomizableEdges = CustomizableEdges10
+        Guna2Panel6.Size = New Size(192, 111)
+        Guna2Panel6.TabIndex = 5
         ' 
         ' Guna2Panel1
         ' 
@@ -496,56 +546,6 @@ Partial Class FormPrincipal
         CerrarSesiónToolStripMenuItem.Name = "CerrarSesiónToolStripMenuItem"
         CerrarSesiónToolStripMenuItem.Size = New Size(151, 27)
         CerrarSesiónToolStripMenuItem.Text = "🔙 Cerrar sesión"
-        ' 
-        ' Guna2Panel2
-        ' 
-        Guna2Panel2.BorderRadius = 20
-        Guna2Panel2.CustomizableEdges = CustomizableEdges1
-        Guna2Panel2.Location = New Point(249, 162)
-        Guna2Panel2.Name = "Guna2Panel2"
-        Guna2Panel2.ShadowDecoration.CustomizableEdges = CustomizableEdges2
-        Guna2Panel2.Size = New Size(192, 111)
-        Guna2Panel2.TabIndex = 5
-        ' 
-        ' Guna2Panel3
-        ' 
-        Guna2Panel3.BorderRadius = 20
-        Guna2Panel3.CustomizableEdges = CustomizableEdges3
-        Guna2Panel3.Location = New Point(484, 162)
-        Guna2Panel3.Name = "Guna2Panel3"
-        Guna2Panel3.ShadowDecoration.CustomizableEdges = CustomizableEdges4
-        Guna2Panel3.Size = New Size(192, 111)
-        Guna2Panel3.TabIndex = 5
-        ' 
-        ' Guna2Panel4
-        ' 
-        Guna2Panel4.BorderRadius = 20
-        Guna2Panel4.CustomizableEdges = CustomizableEdges5
-        Guna2Panel4.Location = New Point(719, 162)
-        Guna2Panel4.Name = "Guna2Panel4"
-        Guna2Panel4.ShadowDecoration.CustomizableEdges = CustomizableEdges6
-        Guna2Panel4.Size = New Size(192, 111)
-        Guna2Panel4.TabIndex = 5
-        ' 
-        ' Guna2Panel5
-        ' 
-        Guna2Panel5.BorderRadius = 20
-        Guna2Panel5.CustomizableEdges = CustomizableEdges7
-        Guna2Panel5.Location = New Point(961, 162)
-        Guna2Panel5.Name = "Guna2Panel5"
-        Guna2Panel5.ShadowDecoration.CustomizableEdges = CustomizableEdges8
-        Guna2Panel5.Size = New Size(192, 111)
-        Guna2Panel5.TabIndex = 5
-        ' 
-        ' Guna2Panel6
-        ' 
-        Guna2Panel6.BorderRadius = 20
-        Guna2Panel6.CustomizableEdges = CustomizableEdges9
-        Guna2Panel6.Location = New Point(1199, 162)
-        Guna2Panel6.Name = "Guna2Panel6"
-        Guna2Panel6.ShadowDecoration.CustomizableEdges = CustomizableEdges10
-        Guna2Panel6.Size = New Size(192, 111)
-        Guna2Panel6.TabIndex = 5
         ' 
         ' FormPrincipal
         ' 
