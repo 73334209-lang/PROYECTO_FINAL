@@ -1,10 +1,40 @@
 ﻿Imports System.Data.OleDb
+
 Public Class FormLogin
 
-    Private Sub btnIngresar_Click(sender As Object, e As EventArgs) Handles btnIngresar.Click
+    Private Sub FormLogin_Load(
+        sender As Object,
+        e As EventArgs
+    ) Handles MyBase.Load
 
-        If String.IsNullOrWhiteSpace(Guna2TextBox1.Text) OrElse
-            String.IsNullOrWhiteSpace(Guna2TextBox2.Text) Then
+        Guna2TextBox1.Clear()
+        Guna2TextBox2.Clear()
+
+        Guna2TextBox2.UseSystemPasswordChar = True
+
+        Guna2TextBox1.Focus()
+
+    End Sub
+
+    Private Sub btnIngresar_Click(
+        sender As Object,
+        e As EventArgs
+    ) Handles btnIngresar.Click
+
+        IniciarSesion()
+
+    End Sub
+
+    Private Sub IniciarSesion()
+
+        Dim nombreUsuario As String =
+            Guna2TextBox1.Text.Trim()
+
+        Dim contraseña As String =
+            Guna2TextBox2.Text.Trim()
+
+        If String.IsNullOrWhiteSpace(nombreUsuario) OrElse
+           String.IsNullOrWhiteSpace(contraseña) Then
 
             MessageBox.Show(
                 "Por favor, ingrese usuario y contraseña.",
@@ -13,55 +43,70 @@ Public Class FormLogin
                 MessageBoxIcon.Warning
             )
 
-            Exit Sub
+            If String.IsNullOrWhiteSpace(nombreUsuario) Then
+                Guna2TextBox1.Focus()
+            Else
+                Guna2TextBox2.Focus()
+            End If
+
+            Return
+
         End If
 
-        Dim query As String =
+        Dim consulta As String =
             "SELECT IdUsuario, NombreUsuario, Rol " &
             "FROM Usuarios " &
             "WHERE NombreUsuario = ? " &
             "AND [Contraseña] = ? " &
             "AND Estado = True"
 
-        Using conexion As New OleDbConnection(
-            ModuleConexion.CadenaConexion)
+        Try
 
-            Try
-                conexion.Open()
+            Using conexion As New OleDbConnection(
+                ModuleConexion.CadenaConexion
+            )
 
-                Using cmd As New OleDbCommand(query, conexion)
+                Using comando As New OleDbCommand(
+                    consulta,
+                    conexion
+                )
 
-                    'OleDb utiliza los parámetros según su posición.
-                    cmd.Parameters.AddWithValue(
-                        "@NombreUsuario",
-                        Guna2TextBox1.Text.Trim()
-                    )
+                    'OleDb utiliza los parámetros por posición.
+                    comando.Parameters.Add(
+                        "@usuario",
+                        OleDbType.VarWChar
+                    ).Value = nombreUsuario
 
-                    cmd.Parameters.AddWithValue(
-                        "@Contraseña",
-                        Guna2TextBox2.Text
-                    )
+                    comando.Parameters.Add(
+                        "@contraseña",
+                        OleDbType.VarWChar
+                    ).Value = contraseña
 
-                    Using reader As OleDbDataReader =
-                        cmd.ExecuteReader()
+                    conexion.Open()
 
-                        If reader.Read() Then
+                    Using lector As OleDbDataReader =
+                        comando.ExecuteReader()
 
-                            ModuleConexion.IdUsuarioActual =
+                        If lector.Read() Then
+
+                            'Guardar la sesión en ModuleSesion.
+                            ModuleSesion.IdUsuarioActual =
                                 Convert.ToInt32(
-                                    reader("IdUsuario")
+                                    lector("IdUsuario")
                                 )
 
-                            ModuleConexion.UsuarioActual =
-                                reader("NombreUsuario").ToString()
+                            ModuleSesion.NombreUsuarioActual =
+                                lector("NombreUsuario").ToString()
 
-                            ModuleConexion.RolActual =
-                                reader("Rol").ToString()
+                            ModuleSesion.RolUsuarioActual =
+                                lector("Rol").ToString()
 
-                            Dim mainForm As New FormPrincipal()
-                            mainForm.Show()
+                            Dim formularioPrincipal As New FormPrincipal()
+
 
                             Me.Hide()
+
+                            formularioPrincipal.Show()
 
                         Else
 
@@ -70,67 +115,72 @@ Public Class FormLogin
                                 "o el usuario está inactivo.",
                                 "Error de autenticación",
                                 MessageBoxButtons.OK,
-                                MessageBoxIcon.Error
+                                MessageBoxIcon.Warning
                             )
 
-                            Guna2TextBox1.Clear()
                             Guna2TextBox2.Clear()
-                            Guna2TextBox1.Focus()
+                            Guna2TextBox2.Focus()
 
                         End If
 
                     End Using
+
                 End Using
 
-            Catch ex As OleDbException
+            End Using
 
-                MessageBox.Show(
-                    "Error de Access: " & ex.Message,
-                    "Error de consulta",
-                    MessageBoxButtons.OK,
-                    MessageBoxIcon.Error
-                )
+        Catch ex As OleDbException
 
-            Catch ex As Exception
+            MessageBox.Show(
+                "No se pudo acceder a la base de datos:" &
+                Environment.NewLine &
+                Environment.NewLine &
+                ex.Message,
+                "Error de Access",
+                MessageBoxButtons.OK,
+                MessageBoxIcon.Error
+            )
 
-                MessageBox.Show(
-                    "Error general: " & ex.Message,
-                    "Error",
-                    MessageBoxButtons.OK,
-                    MessageBoxIcon.Error
-                )
+        Catch ex As Exception
 
-            End Try
-        End Using
+            MessageBox.Show(
+                "Ocurrió un error inesperado:" &
+                Environment.NewLine &
+                Environment.NewLine &
+                ex.Message,
+                "Error",
+                MessageBoxButtons.OK,
+                MessageBoxIcon.Error
+            )
 
-    End Sub
-
-
-
-
-    Private Sub FormLogin_Click(sender As Object, e As EventArgs) Handles Me.Click
-
-    End Sub
-
-    Private Sub FormLogin_Closed(sender As Object, e As EventArgs) Handles Me.Closed
+        End Try
 
     End Sub
 
-    Private Sub FormLogin_FormClosed(sender As Object, e As FormClosedEventArgs) Handles Me.FormClosed
+    Private Sub Guna2TextBox2_IconRightClick(
+        sender As Object,
+        e As EventArgs
+    ) Handles Guna2TextBox2.IconRightClick
+
+        If Guna2TextBox2.UseSystemPasswordChar Then
+
+            Guna2TextBox2.UseSystemPasswordChar = False
+
+        Else
+
+            Guna2TextBox2.UseSystemPasswordChar = True
+
+        End If
+
+    End Sub
+
+    Private Sub FormLogin_FormClosed(
+        sender As Object,
+        e As FormClosedEventArgs
+    ) Handles Me.FormClosed
+
         Application.Exit()
 
     End Sub
 
-    Private Sub Guna2TextBox2_IconRightClick(sender As Object, e As EventArgs) Handles Guna2TextBox2.IconRightClick
-        ' Al dar clic: si está oculta se muestra, si está visible se oculta
-        If Guna2TextBox2.UseSystemPasswordChar Then
-            Guna2TextBox2.UseSystemPasswordChar = False
-        Else
-            Guna2TextBox2.UseSystemPasswordChar = True
-        End If
-    End Sub
-
-    Private Sub FormLogin_Load(sender As Object, e As EventArgs) Handles Me.Load
-        Guna2TextBox2.UseSystemPasswordChar = True
-    End Sub
 End Class

@@ -73,3 +73,4 @@ C:\PROYECTO_FINAL\PROYECTO_FINAL\SistemaUniversitario\SistemaUniversitario\obj\D
 C:\PROYECTO_FINAL\PROYECTO_FINAL\SistemaUniversitario\SistemaUniversitario\obj\Debug\net10.0-windows\SistemaUniversitario.pdb
 C:\PROYECTO_FINAL\PROYECTO_FINAL\SistemaUniversitario\SistemaUniversitario\obj\Debug\net10.0-windows\SistemaUniversitario.genruntimeconfig.cache
 C:\PROYECTO_FINAL\PROYECTO_FINAL\SistemaUniversitario\SistemaUniversitario\obj\Debug\net10.0-windows\ref\SistemaUniversitario.dll
+C:\PROYECTO_FINAL\PROYECTO_FINAL\SistemaUniversitario\SistemaUniversitario\bin\Debug\net10.0-windows\SistemaUniversitario.runtimeconfig.dev.json
