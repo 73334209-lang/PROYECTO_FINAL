@@ -7,12 +7,12 @@
       "RelativeMoniker": "D:0:0:{B4187301-1332-81F9-7D7D-C34E8EE8194D}|SistemaUniversitario\\SistemaUniversitario.vbproj|solutionrelative:sistemauniversitario\\formprincipal.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B4187301-1332-81F9-7D7D-C34E8EE8194D}|SistemaUniversitario\\SistemaUniversitario.vbproj|c:\\proyecto_final\\proyecto_final\\sistemauniversitario\\sistemauniversitario\\formmantenimientopersonas.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
-      "RelativeMoniker": "D:0:0:{B4187301-1332-81F9-7D7D-C34E8EE8194D}|SistemaUniversitario\\SistemaUniversitario.vbproj|solutionrelative:sistemauniversitario\\formmantenimientopersonas.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B4187301-1332-81F9-7D7D-C34E8EE8194D}|SistemaUniversitario\\SistemaUniversitario.vbproj|c:\\proyecto_final\\proyecto_final\\sistemauniversitario\\sistemauniversitario\\formprincipal.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
       "RelativeMoniker": "D:0:0:{B4187301-1332-81F9-7D7D-C34E8EE8194D}|SistemaUniversitario\\SistemaUniversitario.vbproj|solutionrelative:sistemauniversitario\\formprincipal.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4187301-1332-81F9-7D7D-C34E8EE8194D}|SistemaUniversitario\\SistemaUniversitario.vbproj|c:\\proyecto_final\\proyecto_final\\sistemauniversitario\\sistemauniversitario\\formmantenimientopersonas.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{B4187301-1332-81F9-7D7D-C34E8EE8194D}|SistemaUniversitario\\SistemaUniversitario.vbproj|solutionrelative:sistemauniversitario\\formmantenimientopersonas.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B4187301-1332-81F9-7D7D-C34E8EE8194D}|SistemaUniversitario\\SistemaUniversitario.vbproj|c:\\proyecto_final\\proyecto_final\\sistemauniversitario\\sistemauniversitario\\moduleconexion.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
@@ -74,7 +74,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "FormMantenimientoPersonas.vb [Dise\u00F1o]",
               "DocumentMoniker": "C:\\PROYECTO_FINAL\\PROYECTO_FINAL\\SistemaUniversitario\\SistemaUniversitario\\FormMantenimientoPersonas.vb",
               "RelativeDocumentMoniker": "SistemaUniversitario\\FormMantenimientoPersonas.vb",
@@ -110,7 +110,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "FormPrincipal.vb",
               "DocumentMoniker": "C:\\PROYECTO_FINAL\\PROYECTO_FINAL\\SistemaUniversitario\\SistemaUniversitario\\FormPrincipal.vb",
               "RelativeDocumentMoniker": "SistemaUniversitario\\FormPrincipal.vb",
