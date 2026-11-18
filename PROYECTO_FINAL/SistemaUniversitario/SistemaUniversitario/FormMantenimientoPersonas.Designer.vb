@@ -22,9 +22,15 @@ Partial Class FormMantenimientoPersonas
     'No lo modifique con el editor de código.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        components = New System.ComponentModel.Container
-        Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(800, 450)
-        Me.Text = "FormMantenimientoPersonas"
+        SuspendLayout()
+        ' 
+        ' FormMantenimientoPersonas
+        ' 
+        AutoScaleDimensions = New SizeF(8F, 20F)
+        AutoScaleMode = AutoScaleMode.Font
+        ClientSize = New Size(1365, 627)
+        Name = "FormMantenimientoPersonas"
+        Text = "FormMantenimientoPersonas"
+        ResumeLayout(False)
     End Sub
 End Class
