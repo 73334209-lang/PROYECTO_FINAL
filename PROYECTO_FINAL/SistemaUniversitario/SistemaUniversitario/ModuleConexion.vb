@@ -11,4 +11,10 @@ Module ModuleConexion
         "Data Source=" & RutaBaseDatos & ";" &
         "Persist Security Info=False;"
 
+    Public Function ExisteBaseDatos() As Boolean
+
+        Return File.Exists(RutaBaseDatos)
+
+    End Function
+
 End Module
