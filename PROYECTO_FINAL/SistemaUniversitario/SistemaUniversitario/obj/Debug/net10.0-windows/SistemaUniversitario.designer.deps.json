@@ -13,7 +13,8 @@
         "runtime": {
           "lib/net10.0-windows7.0/Guna.UI2.dll": {
             "assemblyVersion": "2.0.5.1",
-            "fileVersion": "2.0.5.1"
+            "fileVersion": "2.0.5.1",
+            "localPath": "Guna.UI2.dll"
           }
         }
       },
@@ -21,7 +22,8 @@
         "runtime": {
           "lib/net10.0-windows7.0/ReaLTaiizor.dll": {
             "assemblyVersion": "3.8.2.1",
-            "fileVersion": "3.8.2.1"
+            "fileVersion": "3.8.2.1",
+            "localPath": "ReaLTaiizor.dll"
           }
         }
       },
@@ -29,7 +31,8 @@
         "runtime": {
           "lib/net10.0/System.Data.OleDb.dll": {
             "assemblyVersion": "10.0.0.14",
-            "fileVersion": "10.0.1426.52326"
+            "fileVersion": "10.0.1426.52326",
+            "localPath": "System.Data.OleDb.dll"
           }
         },
         "runtimeTargets": {
@@ -37,7 +40,8 @@
             "rid": "win",
             "assetType": "runtime",
             "assemblyVersion": "10.0.0.14",
-            "fileVersion": "10.0.1426.52326"
+            "fileVersion": "10.0.1426.52326",
+            "localPath": "runtimes/win/lib/net10.0/System.Data.OleDb.dll"
           }
         }
       },
@@ -45,7 +49,8 @@
         "runtime": {
           "lib/net10.0/System.Management.dll": {
             "assemblyVersion": "10.0.0.14",
-            "fileVersion": "10.0.1426.52326"
+            "fileVersion": "10.0.1426.52326",
+            "localPath": "System.Management.dll"
           }
         },
         "runtimeTargets": {
@@ -53,7 +58,8 @@
             "rid": "win",
             "assetType": "runtime",
             "assemblyVersion": "10.0.0.14",
-            "fileVersion": "10.0.1426.52326"
+            "fileVersion": "10.0.1426.52326",
+            "localPath": "runtimes/win/lib/net10.0/System.Management.dll"
           }
         }
       }

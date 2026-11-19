@@ -1,13 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "QFkGyFmjnPw=",
+  "dgSpecHash": "322RV8j66R0=",
   "success": true,
   "projectFilePath": "C:\\PROYECTO_FINAL\\PROYECTO_FINAL\\SistemaUniversitario\\SistemaUniversitario\\SistemaUniversitario.vbproj",
   "expectedPackageFiles": [
-    "C:\\Users\\LABORATORIO 01\\.nuget\\packages\\guna.ui2.winforms\\2.0.5.1\\guna.ui2.winforms.2.0.5.1.nupkg.sha512",
-    "C:\\Users\\LABORATORIO 01\\.nuget\\packages\\realtaiizor\\3.8.2.1\\realtaiizor.3.8.2.1.nupkg.sha512",
-    "C:\\Users\\LABORATORIO 01\\.nuget\\packages\\system.data.oledb\\10.0.14\\system.data.oledb.10.0.14.nupkg.sha512",
-    "C:\\Users\\LABORATORIO 01\\.nuget\\packages\\system.management\\10.0.14\\system.management.10.0.14.nupkg.sha512"
+    "C:\\Users\\Usuario\\.nuget\\packages\\guna.ui2.winforms\\2.0.5.1\\guna.ui2.winforms.2.0.5.1.nupkg.sha512",
+    "C:\\Users\\Usuario\\.nuget\\packages\\realtaiizor\\3.8.2.1\\realtaiizor.3.8.2.1.nupkg.sha512",
+    "C:\\Users\\Usuario\\.nuget\\packages\\system.data.oledb\\10.0.14\\system.data.oledb.10.0.14.nupkg.sha512",
+    "C:\\Users\\Usuario\\.nuget\\packages\\system.management\\10.0.14\\system.management.10.0.14.nupkg.sha512"
   ],
   "logs": []
 }

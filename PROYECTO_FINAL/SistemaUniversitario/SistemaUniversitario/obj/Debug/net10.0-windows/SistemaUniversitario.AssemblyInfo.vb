@@ -16,7 +16,7 @@ Imports System.Reflection
 <Assembly: System.Reflection.AssemblyCompanyAttribute("SistemaUniversitario"),  _
  Assembly: System.Reflection.AssemblyConfigurationAttribute("Debug"),  _
  Assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0"),  _
- Assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+674a0754ed59481f24c61a34021f972a0a1511d7"),  _
+ Assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e293b5cdf64cd89246d0991a53179bd6be21a0d8"),  _
  Assembly: System.Reflection.AssemblyProductAttribute("SistemaUniversitario"),  _
  Assembly: System.Reflection.AssemblyTitleAttribute("SistemaUniversitario"),  _
  Assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0"),  _
