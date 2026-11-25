@@ -945,4 +945,26 @@ Public Class FormMantenimientoPersonas
 
 #End Region
 
+
+    Private Sub DataGridView_CellMouseEnter(sender As Object, e As DataGridViewCellEventArgs) _
+    Handles dgvUsuarios.CellMouseEnter, dgvEstudiantes.CellMouseEnter, dgvDocentes.CellMouseEnter
+
+        ' Evita que afecte a los encabezados (RowIndex = -1)
+        If e.RowIndex >= 0 Then
+            Dim dgv As DataGridView = DirectCast(sender, DataGridView)
+            ' Un azul muy suave que combina con la interfaz de tu sistema
+            dgv.Rows(e.RowIndex).DefaultCellStyle.BackColor = Color.FromArgb(230, 240, 255)
+        End If
+    End Sub
+
+    ' Restaura el color original cuando el cursor sale de la fila
+    Private Sub DataGridView_CellMouseLeave(sender As Object, e As DataGridViewCellEventArgs) _
+        Handles dgvUsuarios.CellMouseLeave, dgvEstudiantes.CellMouseLeave, dgvDocentes.CellMouseLeave
+
+        If e.RowIndex >= 0 Then
+            Dim dgv As DataGridView = DirectCast(sender, DataGridView)
+            ' Color.Empty devuelve el color por defecto (blanco o alternado)
+            dgv.Rows(e.RowIndex).DefaultCellStyle.BackColor = Color.Empty
+        End If
+    End Sub
 End Class
