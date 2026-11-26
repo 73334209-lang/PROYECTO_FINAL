@@ -123,6 +123,16 @@ Namespace My.Resources
         '''<summary>
         '''  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         '''</summary>
+        Friend ReadOnly Property cccb814d_5677_410b_b9a1_730fbf5047ae() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("cccb814d-5677-410b-b9a1-730fbf5047ae", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        '''</summary>
         Friend ReadOnly Property Emblema_académico_azul_con_laureles() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("Emblema académico azul con laureles", resourceCulture)
